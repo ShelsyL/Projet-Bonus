@@ -8,7 +8,7 @@
    <div class="container">
      <div class="row">
        <div class="col-lg-8 ftco-animate">
-         <?php echo $content; ?>
+          <?php echo $content; ?> <!--Zone dynamique | c'est le role du routeur de venir hydrater la variable content -->
        </div>
 
        <!-- .col-md-8 -->

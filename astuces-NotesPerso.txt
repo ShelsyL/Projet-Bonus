@@ -27,17 +27,29 @@ ASTUCES :
      y lancer les zones dynamiques et décomposer en partials
      > Faire un commit
 
+-------------------------------------------------------------- /25/05/2020
 
 
-     NP: $sql="SELECT*
-                FROM posts
-                LIMIT 10;"
   4. Créer la route par défaut: affichage des 10 derniers posts
      > Faire un commit
+
+--------------------------------------------------------------08/06/2020
+Notes:
+Mise en place de la route par défaut avec la video 1
+Chargement de la db-remplie
+
+Pour apres
+Regarer la video et mettre en place les namespaces
+
+
+-------------------------------------------------------------- /08/06/2020
+
   5. Faire le lien vers la route du détail d'un post
      Et créer la route correspondante
      Afficher le contenu du post (pas les tags, ni l'auteur, ni les comments)
      > Faire un commit
+
+
   6. Liste des tags du post : 2 solutions:
       - SOIT: Dans l'action show du CTRL postsControleur,
               Aller chercher les tags du post en faisant appel à la fonction indexByPostId(id du post) du modèle des tags
@@ -46,6 +58,8 @@ ASTUCES :
       - SOIT: Dans la vue show du post, faire appel à l'action indexByPostId du CTRL tagsControleur
               qui charge directement la vue indexByPostId
      > Faire un commit
+
+
   7. Détails de l'auteur: 2 solutions
       - SOIT: Dans l'action show du CTRL postsControleur,
               Aller chercher l'auteur du post en faisant appel à la fonction show(id de l'auteur) du modèle des auteurs

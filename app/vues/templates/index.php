@@ -1,3 +1,12 @@
+<?php
+/*
+    ./app/vues/templates/index.php (ou tutos defaut.php)
+    Template par défaut
+*/
+
+ ?>
+
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
